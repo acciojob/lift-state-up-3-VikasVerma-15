@@ -8,7 +8,7 @@ const App = () => {
 
   return (
     <div className="parent" style={{ backgroundColor: "lime", padding: "20px" }}>
-      <h2>Parent Component</h2>
+      <h1>Parent Component</h1>
 
       {/* Child Components */}
       <ChildComponent1 setSelectedOption={setSelectedOption} />
